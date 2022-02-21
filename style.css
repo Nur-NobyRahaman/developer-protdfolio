@@ -10,6 +10,7 @@ h1{
 }
 section{
     display: flex;
+    margin-bottom: 150px;
 }
 .half-width{
     width: 50%;
@@ -24,11 +25,23 @@ section{
     color: white;
     font-weight: 700;
     padding: 10px 40px;
-    border-radius: 5px;
+    border-radius: 10px;
 
 
 }
 .top{
     background-image: url(show-off/top-banner.png);
     background-repeat: no-repeat;
+}
+.download-button{
+    text-decoration: none;
+    background-image: linear-gradient(orange,tomato);
+    padding: 10px 40px;
+    border-radius: 10px;
+    color: white;
+}
+.dream-big{
+    background-image: url(show-off/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
